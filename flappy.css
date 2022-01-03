@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.conteudo {
+  align-items: center;
+  background-color: rgb(25, 61, 66);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+[wm-flappy] {
+  background-color: deepskyblue;
+  border: 5px solid dodgerblue;
+  height: 520px;
+  overflow: hidden;
+  position: relative;
+  width: 1050px;
+}
+
+.passaro {
+  left: calc(50% - 30px);
+  position: absolute;
+  width: 60px;
+}
+
+.par-de-barreiras {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.barreira {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.barreira .borda {
+  height: 30px;
+  width: 130px;
+  background: linear-gradient(90deg, #639301, #a5e82e);
+  border: 2px solid #000;
+}
+
+.barreira .corpo {
+  height: 150px;
+  width: 110px;
+  background: linear-gradient(90deg, #639301, #a5e82e);
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+.progresso {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 45px;
+  z-index: 100;
+}
