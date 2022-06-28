@@ -16,3 +16,4 @@ quando voce me perguntar
 mal resolvida
 voce quiser
 ouvir
+é só trabalho
