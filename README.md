@@ -10,3 +10,4 @@ falta voce
 nao tem voce
 volto pra casa 
 do travesseiro
+faltqa voce
