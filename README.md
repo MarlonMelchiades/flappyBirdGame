@@ -9,3 +9,4 @@ DE -> Flappy-Bird Spiel-Klon in JS!
 falta voce
 nao tem voce
 volto pra casa 
+do travesseiro
